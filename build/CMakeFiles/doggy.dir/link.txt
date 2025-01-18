@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/doggy.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/doggy.dir/objects.a @CMakeFiles/doggy.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++ -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles/doggy.dir/objects.a -Wl,--no-whole-archive -o output/doggy.exe -Wl,--out-implib,output/libdoggy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/doggy.dir/linklibs.rsp
